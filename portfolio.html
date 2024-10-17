@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The_CREATER</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="user">
+            <img src="https://cdn.pixabay.com/photo/2023/12/28/19/33/synthwave-8474786_1280.jpg " alt="">
+            <h3 class="name">Sarthak Dnyane</h3>
+            <p class="post">Web Designer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="homeb">Home</a></li>
+                <li><a href="#about" class="aboutb">about</a></li>
+                <li><a href="#iam" class="imgsb">Images</a></li>
+                <li><a href="#cont" class="contb">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="menu" class="fas fa-bars"></div>
+    <section class="home" id="home">
+        <h3>HI Here !</h3>
+        <h1>I'M <span class="nsd">Sarthak Dnyane</span></h1>
+        <h2>The <span class="ncs">CREATER</span></h2>
+        <p>The Top 000.1% Web Developer in Whole India (AKHAND BHARAT), The Devloper of Web/ Creater of Software /
+            E-Sport Topper, etc. in <span style="color: #00c3ff"><b class="cen21">21st century</b></span>.</p>
+        <a href="#about"><button class="btn">About Me -<i class="fas fa-user"></i></button></a>
+    </section>
+    <section class="about" id="about">
+        <h1 class="heading">
+            <span>about</span>me
+        </h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>Full Name:</span>Sarthak Datta Dnyane</h3>
+                <h3><span>Present Age:</span>15+</h3>
+                <h3><span>qualification:</span>(Present) 9th Class, CCC, ADWD, Etc.</h3>
+                <h3><span>post:</span>Web Designer / Developer</h3>
+                <h3><span>language:</span>(Main) - (hindi, Marathi, English)</h3>
+                <a href="resume.pdf"><button class="btn">download CV <i class="fas fa-download"></i></button></a>
+            </div>
+
+            <div class="counter">
+                <div class="box"><br>
+                    <span>2</span>
+                    <h3>years of experience</h3>
+                </div>
+
+                <div class="box0"><br>
+                    <span>200+</span>
+                    <h3>project completed</h3>
+                </div>
+
+                <div class="box1"><br><br>
+                    <span>1500+</span>
+                    <h3>happy clients</h3>
+                </div>
+
+                <div class="box2"><br><br>
+                    <span>99</span>
+                    <h3>awards won</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="iam" id="iam" style="margin-right: 23px">
+        <h1 class="heading">
+            <span>My</span>Images
+        </h1>
+        <div class="iam0"></div>
+        <div class="iam1"></div>
+        <div class="iam2"></div>
+        <div class="iam3"></div>
+        <div class="iam4"></div>
+        <div class="iam5"></div>
+    </section>
+    <section class="cont" id="cont">
+        <form action="">
+        <h1 class="heading">
+            <span>My</span>Contact
+        </h1>
+        <div class="cardt" id="cardt"><br><br>
+            <h2 class="ch2">Contact <span class="ussn">Us</span></h2>
+            <p class="cp1">Please fill this form in a <span class="dmsn">Decent Manner</span>.</p>
+            <h3 class="ch3"><span class="fnsn">F</span>ull<span class="fnsn">N</span>ame<span class="ssn">*</span></h3>
+            <br>
+            <input class="ci1" type="text" style="border-radius: 3px;" required>
+            <p class="pp1">First Name</p>
+            <input class="ci2" type="text" style="border-radius: 3px;" required>
+            <p class="pp2">Last Name</p><br>
+            <h3 class="ch31"><span class="esn">E</span>-mail<span class="ssn">*</span></h3><br>
+            <input type="email" class="e32" style="border-radius: 3px;" required>
+            <p class="pp3">example@example.com</p>
+            <h3 class="ch32"><span class="mess">M</span>essage<span class="ssn">*</span></h3><br>
+            <textarea class="ci3" style="border-radius: 3px;"></textarea>
+            <button type="submit" class="cbs"><a href="Thy.html" class="cbas">SUBMIT</a></button>
+        </div>
+    </form>
+    </section>
+    <script>
+        $(document).ready(function () {
+            $('#menu').click(function () {
+                $(this).toggleClass('fa-times');
+                $('header').toggleClass('toggle')
+            });
+            $(window).on('scroll load', function () {
+                $("#menu").removeClass('fa-times');
+                $('header').removeClass('toggle')
+            })
+        });
+    </script>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,700&display=swap');
+
+    :root {
+        --yellow:#00ffad;
+    }
+
+    .homeb:hover {
+        background: linear-gradient(to right, rgb(247, 95, 0),rgb(174, 67, 1));
+
+    }
+
+    .aboutb:hover {
+        background: linear-gradient(to right, rgb(2, 205, 188), rgb(4, 124, 114));
+
+    }
+
+    .imgsb:hover {
+        background: linear-gradient(to right, rgb(41, 208, 8),rgb(27, 145, 3));
+
+    }
+
+    .contb:hover {
+        background: linear-gradient(to right,rgb(193, 0, 196),rgb(121, 4, 123));
+
+    }
+
+    * {
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        transition: all .2s linear;
+    }
+
+    .cardt {
+        background: linear-gradient(to right, rgb(14, 105, 99), #0cb781);
+        height: 65rem;
+        margin-left: 16.50rem;
+        margin-top: 7.50rem;
+        width: 55rem;
+        border-radius: .80rem;
+        color: white;
+        background-position: center;
+    }
+
+    .nsd:hover{
+        color: red;
+
+    }
+    .ncs:hover{
+       color: var(--yellow);
+    }
+
+
+    .iam0 {
+        height: 35rem;
+        width: 35rem;
+        border-radius: 50%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background-image: url(https://cdn.pixabay.com/photo/2016/10/20/08/39/keyboard-1754906_1280.jpg);
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        background-position: top;
+        transition: all 0.50s linear;
+    }
+
+    .iam0:hover {
+        border-radius: 0%;
+        width: 70rem;
+        background-position: bottom;
+        margin-left: 8.50rem;
+        border: 0.50rem rgb(255, 255, 255) inset;
+    }
+
+    .iam1 {
+        height: 35rem;
+        width: 35rem;
+        border-radius: 50%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background-image: url(https://cdn.pixabay.com/photo/2024/03/09/07/22/editing-8622087_1280.jpg);
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        background-position: top;
+        transition: all 0.50s linear;
+    }
+
+    .iam1:hover {
+        border-radius: 0%;
+        width: 70rem;
+        background-position: bottom;
+        margin-left: 8.50rem;
+        border: 0.50rem rgb(255, 255, 255) inset;
+    }
+
+    .iam2 {
+        height: 35rem;
+        width: 35rem;
+        border-radius: 50%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background-image: url(https://cdn.pixabay.com/photo/2024/07/15/17/20/ai-generated-8897455_960_720.jpg);
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        background-position: top;
+        transition: all 0.50s linear;
+    }
+
+    .iam2:hover {
+        border-radius: 0%;
+        width: 70rem;
+        background-position: bottom;
+        margin-left: 8.50rem;
+        border: 0.50rem rgb(255, 255, 255) inset;
+    }
+
+    .iam3 {
+        height: 35rem;
+        width: 35rem;
+        border-radius: 50%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background-image: url(https://cdn.pixabay.com/photo/2024/09/21/02/13/ai-generated-9062778_1280.jpg);
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        background-position: top;
+        transition: all 0.50s linear;
+    }
+
+    .iam3:hover {
+        border-radius: 0%;
+        width: 70rem;
+        background-position: bottom;
+        margin-left: 8.50rem;
+        border: 0.50rem rgb(255, 255, 255) inset;
+    }
+
+    .iam4 {
+        height: 35rem;
+        width: 35rem;
+        border-radius: 50%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background-image: url(https://cdn.pixabay.com/photo/2024/04/19/19/47/ai-generated-8707111_1280.png);
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        background-position: top;
+        transition: all 0.50s linear;
+    }
+
+    .iam4:hover {
+        border-radius: 0%;
+        width: 70rem;
+        background-position: bottom;
+        margin-left: 8.50rem;
+        border: 0.50rem rgb(255, 255, 255) inset;
+    }
+
+    .iam5 {
+        height: 35rem;
+        width: 35rem;
+        border-radius: 50%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background-image: url(https://cdn.pixabay.com/photo/2024/05/22/22/33/interior-design-8781907_1280.png);
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        background-position: top;
+        transition: all 0.50s linear;
+    }
+
+    .iam5:hover {
+        border-radius: 0%;
+        width: 70rem;
+        background-position: bottom;
+        margin-left: 8.50rem;
+        border: 0.50rem rgb(255, 255, 255) inset;
+    }
+
+    .cbs {
+        margin-left: 21rem;
+        margin-top: 3.50rem;
+        height: 3.80rem;
+        box-shadow: 3px 4px 5px black;
+        width: 12.50rem;
+        border-radius: 2rem;
+        background: linear-gradient(to right, rgb(19, 167, 142), rgb(13, 146, 110));
+
+    }
+
+    .cbas {
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        font-weight: bolder;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    .cbs:hover {
+        border: .1rem inset gray;
+    }
+
+    .ch32 {
+        margin-left: 5.1rem;
+        font-size: 2rem;
+        text-shadow: 2px 2px 2px black;
+        margin-top: 2rem;
+    }
+
+    .cen21:hover{
+        color: #04ff00;
+    }
+
+    .mess {
+        color: #04ff00;
+    }
+
+    .ussn {
+        color: #00ffad;
+    }
+
+    .dmsn {
+        color: #ff0000;
+        text-shadow: none;
+    }
+
+    .esn {
+        color: #ff8c00;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .fnsn {
+        color: red;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .ch2 {
+        margin-left: 5rem;
+        font-size: 3.50rem;
+        font-family: 'Nunito Sans', sans-serif;
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    }
+
+    .cp1 {
+        margin-left: 3rem;
+        font-size: 1.50rem;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-bottom: 3rem;
+        border-bottom: .2rem #fff4 solid;
+        padding: 1rem;
+        margin-right: 4rem;
+        text-shadow: 3px 3px 3px rgb(54, 54, 54);
+    }
+
+    .ch3 {
+        margin-left: 5rem;
+        font-size: 2rem;
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    }
+
+    .ssn {
+        color: rgb(255, 0, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: lighter;
+        text-shadow: none;
+    }
+
+    .ci1 {
+        margin-left: 8rem;
+        height: 2.50rem;
+        width: 18rem;
+        background: transparent;
+        border-bottom: .1rem white solid;
+        font-size: medium;
+        color: rgb(255, 255, 255);
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bolder;
+        text-shadow: 2px 2px 2px black;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 80rem;
+        transition: all 0.3s linear;
+    }
+
+    .ci1:hover {
+        border: 1px inset white;
+    }
+
+    .ci2:hover {
+        border: 1px inset white;
+    }
+
+    .e32:hover {
+        border: 1px inset white;
+    }
+
+    .ci3:hover {
+        border: 1px inset white;
+    }
+
+    .pp1 {
+        margin-left: 8rem;
+        font-size: 1.50rem;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: -0.50rem;
+    }
+
+    .ci2 {
+        margin-left: 33rem;
+        margin-top: -5rem;
+        position: absolute;
+        height: 2.50rem;
+        width: 18rem;
+        background: transparent;
+        border-bottom: .1rem white solid;
+        font-size: medium;
+        color: rgb(255, 255, 255);
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bolder;
+        text-shadow: 2px 2px 2px black;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        transition: all 0.3s linear;
+    }
+
+    .pp2 {
+        margin-left: 33rem;
+        font-size: 1.50rem;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: -1.90rem;
+
+    }
+
+    .ch31 {
+        margin-left: 5.1rem;
+        font-size: 2rem;
+        text-shadow: 2px 2px 2px black;
+        margin-top: 2rem;
+    }
+
+    .pp3 {
+        margin-left: 10rem;
+        font-size: 1.50rem;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-top: -.50rem;
+
+    }
+
+    .e32 {
+        margin-left: 10rem;
+        height: 3rem;
+        width: 20rem;
+        background: transparent;
+        border-bottom: .1rem white solid;
+        font-size: medium;
+        color: rgb(255, 255, 255);
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bolder;
+        text-shadow: 2px 2px 2px black;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 80rem;
+        transition: all 0.3s linear;
+    }
+
+    .ci3 {
+
+        margin-left: 8rem;
+        height: 10rem;
+        width: 38rem;
+        background: transparent;
+        border-bottom: .1rem white solid;
+        font-size: medium;
+        color: rgb(255, 255, 255);
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bolder;
+        text-shadow: 2px 2px 2px black;
+        margin-bottom: 1rem;
+        transition: all 0.3s linear;
+        padding: 1rem;
+    }
+
+
+    *::selection {
+        background: var(--yellow);
+        color: #333;
+    }
+
+    html {
+        font-size: 62.5%;
+        overflow: auto;
+    }
+
+    html::-webkit-scrollbar {
+        width: 1.4rem;
+    }
+
+    html::-webkit-scrollbar-track {
+        background: #222;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        background: var(--yellow);
+    }
+
+    body {
+        background: #111;
+        overflow-x: hidden;
+        padding-left: 35rem;
+    }
+
+    section {
+        min-height: 100vh;
+        padding: 1rem;
+    }
+
+    .btn {
+        padding: 1.50rem 2.50rem;
+        background: #333;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 1rem;
+        font-size: 2rem;
+        border-radius: 1rem;
+
+    }
+
+    .btn i {
+        padding: 0.5rem;
+        font-size: 1.8rem;
+    }
+
+    .btn:hover {
+        background: linear-gradient(to right,red,rgb(178, 10, 10));
+    }
+
+    .heading {
+        text-align: center;
+        margin: 0 6rem;
+        font-size: 4rem;
+        padding: 1rem;
+        border-bottom: .1rem solid #fff4;
+        color: #fff;
+    }
+
+    .heading span {
+        color: var(--yellow);
+    }
+
+    header {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        z-index: 1000;
+        height: 100%;
+        width: 35rem;
+        background: #1a1a1a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        text-align: center;
+    }
+
+    header .user img {
+        height: 17rem;
+        width: 17rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -250px;
+        margin-bottom: 1rem;
+        border: .5rem inset silver;
+        margin-bottom: 20px;
+        transition: all 0.3s linear;
+    }
+
+    header .user img:hover {
+        border-radius: 0%;
+        height: 23rem;
+        width: 35rem;
+        border: none;
+    }
+
+    header .user .name {
+        font-size: 3.5rem;
+        color: #2a2a2a;
+        transition: all 0.2s linear;
+        width: 350px;
+        padding: .50rem;
+    }
+
+    header .user .name:hover {
+        color: white;
+        text-shadow: 3px 4px 5px black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        background: linear-gradient(to right,#00c771,#05764e);
+
+    }
+
+    header .user .post {
+        font-size: 2rem;
+        color: #ffffff;
+        width: 350px;
+    }
+
+    header .user .post:hover {
+        font-size: 3rem;
+        color: red;
+        text-shadow: 3px 4px 5px black;
+    }
+
+    header .navbar {
+        width: 100%;
+    }
+
+    header .navbar ul {
+        list-style: none;
+        padding: 1rem 3rem;
+    }
+
+    header .navbar ul li a {
+        display: block;
+        padding: 1rem;
+        margin: 1.50rem 0;
+        background: #333;
+        color: #fff;
+        font-size: 2rem;
+        border-radius: 50rem;
+        text-shadow: 3px 4px 6px black;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    #menu {
+        position: fixed;
+        top: 2rem;
+        right: 2rem;
+        background: #333;
+        color: #fff;
+        cursor: pointer;
+        font-size: 2.5rem;
+        padding: 1rem 1.5rem;
+        z-index: 1000;
+        display: none;
+
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        padding: 0 15rem;
+    }
+
+    .home h3 {
+        font-size: 2.5rem;
+        color: #fff;
+    }
+
+    .home h1 {
+        font-size: 5rem;
+        color: #fff;
+    }
+
+    .home h1 span {
+        color: var(--yellow);
+    }
+
+    .home h2 {
+        font-size: 5rem;
+        margin-left: 140px;
+        color: #fff;
+    }
+
+    .home h2 span {
+        color: red;
+    }
+
+    .home p {
+        font-size: 2rem;
+        color: #eee;
+        padding: 1rem 0;
+    }
+
+    .about .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem 0;
+    }
+
+    .about .row .info {
+        flex: 1 1 48rem;
+        padding: 2rem 1rem;
+        padding-left: 6rem;
+
+    }
+
+    .about .row .info h3 {
+        font-size: 2rem;
+        color: var(--yellow);
+        padding: 1rem 0;
+        font-weight: normal;
+    }
+
+    .about .row .info h3 span {
+        color: #eee;
+        padding: 0 .5rem;
+
+    }
+
+    .about .row .counter {
+        flex: 1 1 48rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .about .row .counter .box {
+        width: 20rem;
+        height: 20rem;
+        background: #222;
+        text-align: center;
+        padding: 2rem;
+        margin: 2rem;
+        text-align: center;
+        align-items: center;
+        transition: 0.5s;
+        border-radius: 50%;
+    }
+
+    .about .row .counter .box:hover {
+        /* width: 25rem; */
+        transform: scale(1.2);
+        cursor: pointer;
+        background: linear-gradient(to right, rgb(238, 95, 0),rgb(180, 72, 10));
+        border-radius: 8px;
+    }
+
+    .about .row .counter .box span {
+        font-size: 4rem;
+        color: var(--yellow);
+    }
+
+    .about .row .counter .box h3 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    
+    .about .row .counter .box0 {
+        width: 20rem;
+        height: 20rem;
+        background: #222;
+        text-align: center;
+        padding: 2rem;
+        margin: 2rem;
+        text-align: center;
+        align-items: center;
+        transition: 0.5s;
+        border-radius: 50%;
+    }
+
+    .about .row .counter .box0:hover {
+        /* width: 25rem; */
+        transform: scale(1.2);
+        cursor: pointer;
+        background: linear-gradient(to right, rgb(233, 0, 78),rgb(165, 7, 49));
+        border-radius: 8px;
+    }
+
+    .about .row .counter .box0 span {
+        font-size: 4rem;
+        color: var(--yellow);
+    }
+
+    .about .row .counter .box0 h3 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    
+    .about .row .counter .box1 {
+        width: 20rem;
+        height: 20rem;
+        background: #222;
+        text-align: center;
+        padding: 2rem;
+        margin: 2rem;
+        text-align: center;
+        align-items: center;
+        transition: 0.5s;
+        border-radius: 50%;
+    }
+
+    .about .row .counter .box1:hover {
+        /* width: 25rem; */
+        transform: scale(1.2);
+        cursor: pointer;
+        background: linear-gradient(to right, red,rgb(182, 7, 7));
+        border-radius: 8px;
+    }
+
+    .about .row .counter .box1 span {
+        font-size: 4rem;
+        color: var(--yellow);
+    }
+
+    .about .row .counter .box1 h3 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    
+    .about .row .counter .box2 {
+        width: 20rem;
+        height: 20rem;
+        background: #222;
+        text-align: center;
+        padding: 2rem;
+        margin: 2rem;
+        text-align: center;
+        align-items: center;
+        transition: 0.5s;
+        border-radius: 50%;
+    }
+
+    .about .row .counter .box2:hover {
+        /* width: 25rem; */
+        transform: scale(1.2);
+        cursor: pointer;
+        background: linear-gradient(to right, rgb(0, 26, 227),rgb(6, 6, 117));
+        border-radius: 8px;
+    }
+
+    .about .row .counter .box2 span {
+        font-size: 4rem;
+        color: var(--yellow);
+    }
+
+    .about .row .counter .box2 h3 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+
+    /* media queries */
+    @media (max-width:1200px) {
+        html {
+            font-size: 55%;
+        }
+
+        .home {
+            padding: 1rem 4rem;
+        }
+    }
+
+    @media (max-width:991px) {
+        header {
+            left: -120%;
+        }
+
+        #menu {
+            display: block;
+        }
+
+        header.toggle {
+            left: 0%;
+        }
+
+        body {
+            padding: 0;
+
+        }
+    }
+
+    @media (max-width:400px) {
+        html {
+            font-size: 50%;
+        }
+    }
+
+    @media (max-width:768px) {
+        header {
+            width: 100vw;
+        }
+
+        .heading {
+            margin: 0 3rem;
+        }
+
+        .about .row .counter .box {
+            width: 100%;
+        }
+    }
+</style>
+
+</html>
